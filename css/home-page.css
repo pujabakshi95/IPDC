@@ -231,3 +231,219 @@ footer .phone-logo{
 footer .contact-no{
     margin: 0;
 }
+
+/*==================
+Media Queries
+====================*/
+
+/* Large Tablet */
+@media (max-width: 1024px) {
+  .customer-exp-sec .row {
+    margin: 0 calc(-40px / 2);
+  }
+  .customer-exp-sec .col-3 {
+    padding: 0 calc(40px / 2);
+  }
+  .our-services-sec .primary-row {
+    margin: 0 calc(-40px / 2);
+  }
+  .our-services-sec .col-3 {
+    padding: 0 calc(40px / 2);
+  }
+  .best-results-sec .row {
+    margin: 0 calc(-60px / 2);
+  }
+  .best-results-sec .col-3 {
+    padding: 0 calc(60px / 2);
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .chase-dreams-sec {
+    padding: 30px 0;
+  }
+  .chase-dreams-sec .col-4 {
+    padding-top: 30px;
+    text-align: center;
+  }
+  .chase-dreams-sec .subtitle {
+    margin: 20px 0 30px;
+  }
+  .chase-dreams-sec .col-8 {
+    margin-top: 30px;
+  }
+  .chase-dreams-sec .float-btn-1,
+  .chase-dreams-sec .float-btn-2 {
+    position: static;
+    margin: 10px auto;
+  }
+  .chase-dreams-sec .contact-row {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .customer-exp-sec {
+    padding: 40px 0;
+  }
+  .customer-exp-sec .subtitle {
+    margin: 20px auto 40px;
+  }
+  .customer-exp-sec .row {
+    margin: 0 calc(-20px / 2);
+  }
+  .customer-exp-sec .col-3 {
+    width: 50%;
+    padding: 0 calc(20px / 2);
+    margin-bottom: 30px;
+  }
+  .customer-exp-sec .card-desc {
+    max-width: 100%;
+  }
+  .our-services-sec .container {
+    padding: 50px 0 40px;
+  }
+  .our-services-sec .subtitle {
+    margin: 15px auto 40px;
+  }
+  .our-services-sec .primary-row {
+    margin: 0 calc(-20px / 2);
+  }
+  .our-services-sec .col-3 {
+    width: 50%;
+    padding: 0 calc(20px / 2);
+    margin-bottom: 30px;
+  }
+  .best-results-sec {
+    padding: 50px 0 40px;
+  }
+  .best-results-sec .subtitle {
+    margin: 15px auto 50px;
+  }
+  .best-results-sec .row {
+    margin: 0 calc(-20px / 2);
+  }
+  .best-results-sec .col-3 {
+    width: 50%;
+    padding: 0 calc(20px / 2);
+    margin-bottom: 30px;
+  }
+  .best-results-sec .upper-row-card {
+    margin-bottom: 30px;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer .card {
+    max-width: 100%;
+  }
+  footer .primary-row {
+    justify-content: space-around;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .chase-dreams-sec {
+    padding: 20px 0;
+  }
+  .chase-dreams-sec .col-4 {
+    padding-top: 20px;
+  }
+  .chase-dreams-sec .subtitle {
+    margin: 15px 0 25px;
+  }
+  .chase-dreams-sec .btn1,
+  .chase-dreams-sec .btn2 {
+    padding: 10px 15px;
+    font-size: 11px;
+    margin: 5px;
+  }
+  .chase-dreams-sec .contact-row {
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .chase-dreams-sec .phone-no {
+    margin: 10px 0;
+  }
+  .chase-dreams-sec .social-logos {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .chase-dreams-sec .social-logos::before {
+    display: none;
+  }
+  .customer-exp-sec {
+    padding: 30px 0;
+  }
+  .customer-exp-sec .subtitle {
+    margin: 15px auto 30px;
+  }
+  .customer-exp-sec .row {
+    margin: 0 calc(-15px / 2);
+  }
+  .customer-exp-sec .col-3 {
+    width: 100%;
+    padding: 0 calc(15px / 2);
+    margin-bottom: 25px;
+  }
+  .customer-exp-sec .top-row-card {
+    margin-bottom: 25px;
+  }
+  .our-services-sec .container {
+    padding: 40px 0 30px;
+  }
+  .our-services-sec .subtitle {
+    margin: 12px auto 30px;
+  }
+  .our-services-sec .primary-row {
+    margin: 0 calc(-10px / 2);
+  }
+  .our-services-sec .col-3 {
+    width: 100%;
+    padding: 0 calc(10px / 2);
+    margin-bottom: 25px;
+  }
+  .our-services-sec .card-img {
+    max-width: 100%;
+  }
+  .our-services-sec .card-title {
+    max-width: 100%;
+  }
+  .best-results-sec {
+    padding: 40px 0 30px;
+  }
+  .best-results-sec .subtitle {
+    margin: 12px auto 40px;
+  }
+  .best-results-sec .row {
+    margin: 0 calc(-10px / 2);
+  }
+  .best-results-sec .col-3 {
+    width: 100%;
+    padding: 0 calc(10px / 2);
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .best-results-sec .card-title {
+    font-size: 28px;
+  }
+  .best-results-sec .upper-row-card {
+    margin-bottom: 25px;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  footer .primary-row {
+    flex-direction: column;
+  }
+  footer .col-23-25percent {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  footer .card {
+    margin: 0 auto;
+  }
+  footer .card-list {
+    text-align: center;
+  }
+}
