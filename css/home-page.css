@@ -1,0 +1,233 @@
+/*=====================
+Chase Dreams Section
+=======================*/
+
+.chase-dreams-sec .subtitle {
+  margin: 23px 0 38px;
+  color: #676767;
+}
+.chase-dreams-sec .col-4 {
+  padding-top: 111px;
+}
+.chase-dreams-sec .btn1 {
+  padding: 13px 22px;
+  margin-right: 20px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+.chase-dreams-sec .btn2 {
+  padding: 13px 20px;
+  border-radius: 4px;
+}
+.chase-dreams-sec .contact-row {
+  margin-top: 51px;
+}
+.chase-dreams-sec .phone-no {
+  font-family: Metropolis-SemiBold;
+  font-size: 17px;
+}
+.chase-dreams-sec .social-logos::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 20%);
+  height: 24px;
+  width: 1px;
+  position: absolute;
+  left: -14px;
+}
+.chase-dreams-sec .phone-logo {
+  margin-right: 11px;
+  height: 24px;
+}
+.chase-dreams-sec .social-logos {
+  margin-left: 36px;
+  position: relative;
+}
+.chase-dreams-sec .social-logo {
+  height: 24px;
+  margin: 0 8px;
+}
+.chase-dreams-sec .col-8 {
+  position: relative;
+}
+.chase-dreams-sec .float-btns {
+  font-family: Metropolis-Bold;
+  border-radius: 55px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 20%);
+  width: fit-content;
+  padding: 20px 33px 20px 27px;
+}
+.chase-dreams-sec .float-img {
+  height: 30.65px;
+  margin-right: 19px;
+}
+.chase-dreams-sec .float-btn-1 {
+  position: absolute;
+  top: 30px;
+  left: 105px;
+}
+.chase-dreams-sec .float-btn-2 {
+  position: absolute;
+  top: 142px;
+  right: 83px;
+}
+
+/* ==============================
+Customer Experience Section
+=================================*/
+
+.customer-exp-sec {
+  padding: 66px 0;
+}
+.customer-exp-sec .subtitle {
+  max-width: 622px;
+  margin: 25px auto 76px;
+}
+.customer-exp-sec .row{
+  justify-content: space-between;
+}
+.customer-exp-sec .row{
+  margin: 0 calc(-107.33px / 2);
+}
+.customer-exp-sec .col-3{
+  padding: 0 calc(107.33px / 2);
+}
+.customer-exp-sec .card-img {
+  height: 37px;
+  width: 37px;
+}
+.customer-exp-sec .card-heading {
+  font-family: Metropolis-Bold;
+  font-size: 22px;
+  margin: 18px 0 10px;
+}
+.customer-exp-sec .card-desc {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 40%);
+  max-width: 165px;
+}
+.customer-exp-sec .top-row-card {
+  margin-bottom: 16px;
+}
+
+/* ==============================
+Our Services Section
+=================================*/
+
+.our-services-sec .container {
+  padding: 99.83px 0 69px;
+  background-color: #fef9fc;
+}
+.our-services-sec .subtitle {
+  max-width: 790px;
+  margin: 18.84px auto 66.4px;
+}
+.our-services-sec .primary-row {
+  margin: 0 calc(-116px / 2);
+}
+.our-services-sec .col-3 {
+  padding: 0 calc(116px / 2);
+}
+.our-services-sec .card-img {
+  border-radius: 9px;
+  max-width: 254px;
+}
+.our-services-sec .secondary-row {
+  flex-wrap: nowrap;
+  margin-top: 22px;
+}
+.our-services-sec .card-title {
+  font-family: Metropolis-SemiBold;
+  font-size: 21px;
+  letter-spacing: 1px;
+  line-height: 35px;
+  max-width: 190px;
+}
+.our-services-sec .card-btn {
+  height: 37px;
+  width: 37px;
+  margin-left: auto;
+}
+
+/* ==============================
+Best Results Section
+=================================*/
+
+.best-results-sec {
+  padding: 99px 0 94px;
+}
+.best-results-sec .subtitle {
+  max-width: 520px;
+  margin: 20px auto 91px;
+}
+.best-results-sec .row {
+  margin: 0 calc(-226.67px / 2);
+}
+.best-results-sec .col-3 {
+  padding: 0 calc(226.67px / 2);
+}
+.best-results-sec .card-title {
+  font-size: 35px;
+  color: rgba(0, 0, 0, 80%);
+  font-family: Metropolis-Bold;
+}
+.best-results-sec .card-title:hover{
+    color: var(--secondary-color);
+}
+.best-results-sec .card-subtitle {
+  line-height: 25px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 60%);
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.best-results-sec .first-title {
+  color: var(--secondary-color);
+}
+.best-results-sec .upper-row-card {
+  margin-bottom: 55px;
+}
+
+/* ==============================
+Footer
+=================================*/
+
+footer {
+  padding: 87px 0;
+}
+footer .card{
+    max-width: 180px;
+}
+footer .card-title {
+  font-size: 18px;
+  font-family: Metropolis-SemiBold;
+  margin-bottom: 20px;
+}
+footer .first-card-desc {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 60%);
+  line-height: 22px;
+  margin-bottom: 16px;
+}
+footer .social-logos {
+  margin: 0 -8px;
+}
+footer .social-logo {
+  height: 24px;
+  padding: 0 8px;
+}
+footer .card-list > li{
+    line-height: 24px;
+}
+footer .card-list a{
+    color: rgba(0,0,0,60%);
+    font-size: 14px;
+}
+footer .phone-logo{
+    height: 24px;
+    width: 24px;
+    margin-right: 11px;
+}
+footer .contact-no{
+    margin: 0;
+}
